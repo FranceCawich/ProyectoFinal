@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class DocumentsTypes extends Model
 {
+    
     use HasFactory;
 }

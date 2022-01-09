@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class purchasesDetail extends Model
 {
+   
     use HasFactory;
 }

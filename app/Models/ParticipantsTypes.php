@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class ParticipantsTypes extends Model
 {
+   
     use HasFactory;
 }

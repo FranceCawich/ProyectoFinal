@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class events extends Model
 {
+   
     use HasFactory;
+    protected $fillable = ['nombre', 'descripcion','fechaInicio','fechaFin'];
+    public function participants(){
+        return $this->belongsToMany(Participant::class);
+    }
 }

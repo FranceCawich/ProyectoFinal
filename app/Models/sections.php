@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class sections extends Model
 {
+
+   
+    
     use HasFactory;
+
+    
 }

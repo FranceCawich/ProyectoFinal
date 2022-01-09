@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class institutionTypes extends Model
 {
+   
     use HasFactory;
 }
